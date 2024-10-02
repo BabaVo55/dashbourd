@@ -11,12 +11,12 @@ export default function RootLayout({
     return (
         <div className="flex h-screen">
             {/* LEFT */}
-            <div className='bg-red-300 w-[14%] md:w-[8%] lg:w-[16%] '>
+            <div className='w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4 overflow-scroll'>
                 <Menu />
             </div>
         
             {/* RIGHT */}
-            <div className="bg-blue-300 w-[86%]">
+            <div className="bg-blue-300 w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%]">
                 <Navbar />
                 {/* {children} */}
             </div>
