@@ -16,7 +16,7 @@ export default function RootLayout({
             </div>
         
             {/* RIGHT */}
-            <div className="bg-blue-300 w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%]">
+            <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%]">
                 <Navbar />
                 {/* {children} */}
             </div>
